@@ -1,0 +1,149 @@
+/* Article Styling --------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: darkgrey;
+  margin: 0;
+  font: 1em/1.5 Candara, Geneva, sans-serif;
+  background: linear-gradient(#2F323E, black, #2F323E);
+  text-align: center;
+}
+
+  .main-header {
+    background: linear-gradient(0deg, #2F323E, transparent, #fff),
+                rgba(255, 195, 0, 0.3) url('../../img/scifi.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 10% 0;
+    margin-top: 0;
+    text-shadow: 5px 5px 5px rgba(0,0,0, .8);
+    color: #FFC300;
+    border-bottom: 10px black solid;
+    margin-bottom: 30px;
+
+  }
+
+  h1 {
+    font-size: 5.625rem;
+
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: .2rem;
+    margin: 0;
+
+  }
+
+  .main-footer {
+    clear: both;
+  }
+
+  img {
+    border: solid #FFC300 2px;
+    border-radius: 20px;
+    float: left;
+    margin: 30px 30px 10px 30px;
+  }
+
+  .navigation li {
+    font-size: 1.25em;
+    border: 2px solid #FFC300;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    background-color: #000;
+    color: #FFC300;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 20px;
+
+  }
+
+  .navigation li:hover {
+    background-color: #FFC300;
+    color: #000;
+    text-shadow: none;
+
+  }
+
+  a:link {
+    text-decoration: none;
+
+  }
+
+  a:visited {
+    color: red;
+  }
+
+  .more {
+    border: solid #FFC300 2px;
+    border-radius: 20px;
+
+    padding: 10px;
+    width: 60%;
+
+    margin: 60px auto;
+
+    }
+
+  .more li {
+    display: inline-block;
+    margin: 30px;
+    padding: 5px;
+    border: darkblue 2px solid;
+    color: darkblue;
+    background: darkgrey;
+    border-radius: 10px;
+  }
+
+  .more li:hover {
+    background: black;
+    color: cornsilk;
+  }
+
+    .quote {
+      border: solid #FFC300 2px;
+      border-radius: 20px;
+      width: 30%;
+      padding: 2px;
+      /* margin: 30px 30px 80px 30px;
+
+
+      float: left; */
+      /* margin: 10px 70px 80px 10px; */
+    }
+
+#vr-article {
+  border: solid #FFC300 2px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 0 30px;
+  width: 80%;
+
+}
+
+.article-header {
+  display: inline-block;
+}
+#vr-article p {
+  /* display: inline-block;
+  float: right; */
+
+
+}
+
+/* .article-paragraph {
+  display: inline-block;
+  float: right;
+} */
+
+.main-footer {
+  clear: both;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
